@@ -279,7 +279,67 @@ namespace GraficadorSeñales
                     / (double)señalResultante.Muestras.Count;
                 lblHertz_Alta.Text = frecuenciaAlta.ToString("N") + "Hz";
 
-                if (lblHertz_Alta.Text >= 1209)
+                if (frecuencia >= 695 && frecuencia <= 699 && frecuenciaAlta>=1207 && frecuenciaAlta <= 1210)
+                {
+                    lblHertzTecla.Text = "1";
+                }
+
+                if (frecuencia >= 695 && frecuencia <= 699 && frecuenciaAlta >= 1334  && frecuenciaAlta <= 1338)
+                {
+                    lblHertzTecla.Text = "2";
+                }
+
+
+                if (frecuencia >= 695 && frecuencia <= 699 && frecuenciaAlta >= 1475 && frecuenciaAlta <= 1479)
+                {
+                    lblHertzTecla.Text = "3";
+                }
+
+
+                if (frecuencia >= 768 && frecuencia <= 772 && frecuenciaAlta >= 1207 && frecuenciaAlta <= 1211)
+                {
+                    lblHertzTecla.Text = "4";
+                }
+
+                if (frecuencia >= 768 && frecuencia <= 772 && frecuenciaAlta >= 1334 && frecuenciaAlta <= 1338)
+                {
+                    lblHertzTecla.Text = "5";
+                }
+
+                if (frecuencia >= 768 && frecuencia <= 772 && frecuenciaAlta >= 1475 && frecuenciaAlta <= 1479)
+                {
+                    lblHertzTecla.Text = "6";
+                }
+
+                if (frecuencia >= 850 && frecuencia <= 854  && frecuenciaAlta >= 1203 && frecuenciaAlta <= 1211)
+                {
+                    lblHertzTecla.Text = "7";
+                }
+
+                if (frecuencia >= 850 && frecuencia <= 854 && frecuenciaAlta >= 1334 && frecuenciaAlta <= 1338)
+                {
+                    lblHertzTecla.Text = "8";
+                }
+
+                if (frecuencia >= 850 && frecuencia <= 854 && frecuenciaAlta >= 1475 && frecuenciaAlta <= 1479)
+                {
+                    lblHertzTecla.Text = "9";
+                }
+
+                if (frecuencia >= 939 && frecuencia <= 943 && frecuenciaAlta >= 1207 && frecuenciaAlta <= 1211)
+                {
+                    lblHertzTecla.Text = "*";
+                }
+
+                if (frecuencia >= 939 && frecuencia <= 943 && frecuenciaAlta >= 1334 && frecuenciaAlta <= 1338)
+                {
+                    lblHertzTecla.Text = "0";
+                }
+
+                if (frecuencia >= 939 && frecuencia <= 943 && frecuenciaAlta >= 1475 && frecuenciaAlta <= 1479)
+                {
+                    lblHertzTecla.Text = "#";
+                }
             }
 
 
